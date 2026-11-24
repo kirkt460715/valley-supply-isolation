@@ -1,0 +1,7 @@
+road,left,right,shared,duration,max_weight
+E1,depot,F,J1,2,15
+E2,F,T1,J2,1,7
+E3,F,T2,J3,2,11
+E4,T2,T3,J3,1,7
+E5,depot,T3,J4,5,4
+E6,F,T3,J2,3,5

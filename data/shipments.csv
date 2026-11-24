@@ -1,0 +1,4 @@
+shipment,case,day,hour,vehicle,item,quantity,to,status,road
+V1,K041,0,6,B1,water,7,T2,in_transit,E1|E3
+V2,K041,0,6,B2,cells,5,T3,received,E5
+V3,K042,1,7,B1,water,7,T1,planned,E1|E2

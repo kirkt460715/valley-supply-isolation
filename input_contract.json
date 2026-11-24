@@ -1,0 +1,85 @@
+{
+  "tables": {
+    "roads": [
+      "road",
+      "left",
+      "right",
+      "shared",
+      "duration",
+      "max_weight"
+    ],
+    "fleet": [
+      "day",
+      "vehicle",
+      "open_hour",
+      "close_hour",
+      "capacity"
+    ],
+    "supplies": [
+      "site",
+      "item",
+      "start",
+      "minimum",
+      "use_per_day",
+      "life_days",
+      "substitute",
+      "return_required"
+    ],
+    "shipments": [
+      "shipment",
+      "case",
+      "day",
+      "hour",
+      "vehicle",
+      "item",
+      "quantity",
+      "to",
+      "status",
+      "road"
+    ],
+    "forecasts": [
+      "case",
+      "day",
+      "run_hour",
+      "road",
+      "rain",
+      "published_hour"
+    ],
+    "patrols": [
+      "case",
+      "day",
+      "hour",
+      "road",
+      "state",
+      "known_hour"
+    ],
+    "delivery_history": [
+      "case",
+      "day",
+      "village",
+      "road",
+      "quantity",
+      "known_hour"
+    ]
+  },
+  "references": [
+    [
+      "forecasts",
+      "road",
+      "roads",
+      "road"
+    ],
+    [
+      "patrols",
+      "road",
+      "roads",
+      "road"
+    ],
+    [
+      "delivery_history",
+      "road",
+      "roads",
+      "road"
+    ]
+  ]
+}

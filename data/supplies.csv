@@ -1,0 +1,9 @@
+site,item,start,minimum,use_per_day,life_days,substitute,return_required
+depot,water,48,0,0,4,,false
+depot,cells,22,0,0,2,battery,true
+depot,battery,15,0,0,3,cells,false
+T1,water,7,5,4,3,,false
+T2,cells,3,3,2,2,battery,true
+T2,water,4,6,5,3,,false
+T3,battery,4,4,3,3,cells,false
+T3,water,8,4,4,3,,false
