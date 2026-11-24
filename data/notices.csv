@@ -1,0 +1,5 @@
+notice,case,road,start_hour,end_hour,known_hour,state
+J01,K041,E3,7,,8,closed
+J02,K041,E4,9,,11,closed
+J03,K041,E3,19,,21,open
+J04,K042,E1,27,38,25,closed

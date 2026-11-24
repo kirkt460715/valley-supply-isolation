@@ -37,6 +37,15 @@
       "status",
       "road"
     ],
+    "notices": [
+      "notice",
+      "case",
+      "road",
+      "start_hour",
+      "end_hour",
+      "known_hour",
+      "state"
+    ],
     "forecasts": [
       "case",
       "day",
@@ -77,6 +86,12 @@
     ],
     [
       "delivery_history",
+      "road",
+      "roads",
+      "road"
+    ],
+    [
+      "notices",
       "road",
       "roads",
       "road"

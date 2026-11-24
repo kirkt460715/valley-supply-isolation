@@ -12,6 +12,8 @@
   字段为 `site / item / start / minimum / use_per_day / life_days / substitute / return_required`。
 - `data/shipments.csv`  在途及落地调度登记。未落地不能当目标屯点存量，已装车物资未回收不能重新拨付。
   字段为 `shipment / case / day / hour / vehicle / item / quantity / to / status / road`。
+- `data/notices.csv`  封控通知按业务发生时与可见时间分别记。end_hour 为空表明还未确定结束。closed 对应禁止通行，open 对应正式恢复。
+  字段为 `notice / case / road / start_hour / end_hour / known_hour / state`。
 - `data/forecasts.csv`  预报版本有自己的到达时间。时间戳为该过程起始后的小时。K001–K030 为历史窗口，K031–K040 为独立复盘，K041–K042 为当前演练。
   字段为 `case / day / run_hour / road / rain / published_hour`。
 - `data/patrols.csv`  巡查的时点状态及可见时间。两次巡查中间没有逐小时路况。
